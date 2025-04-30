@@ -11,25 +11,23 @@ This repository contains my personal macOS dotfiles, design inspired by *NieR: A
 
 ![](./screenshots/home1.png)
 
-*Terminal with `podsays`, Starship prompt, and custom theme.*
+*Neofetch, tty-clock and ![podsay](https://github.com/Pomme2T3rr3/podsay) (a little CLI program, reference to Nier: Automata)*
 
 ![](./screenshots/home2.png)
 
-*Neovim setup with personalized theme and essential plugins.*
+*Neofetch, tty-clock, podsay and gotop (alternative to htop).*
 
-## 🐧 podsay
+## Tools
+OS : MacOS 15.3
+WM : Quartz
+DE : Aqua
+Terminal : iterm2
+Shell : zsh
+Package Panager : brew, port
+File Explorer : ranger, nnn
+Audio Player : cmus
+Bar : Ice
 
-Check out [podsay](https://github.com/Pomme2T3rr3/podsay), a fun terminal tool I made that displays inspiring quotes with an artistic twist. It's integrated into my terminal setup and featured in one of the screenshots above.
-![](./screenshots/home1.png)
-
-
-## 📂 Repository Structure
-
-- `Brewfile` – Homebrew packages and apps  
-- `Nier_Theme.json` – Terminal color scheme  
-- `config/` – Configuration files for tools (e.g. `nvim`, `tmux`)  
-- `screenshots/` – Preview images of the rice  
-- `wallpapers/` – Themed wallpapers (optional)  
 
 ## 📄 License
 
