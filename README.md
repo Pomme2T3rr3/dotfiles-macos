@@ -19,13 +19,21 @@ This repository contains my personal macOS dotfiles, design inspired by *NieR: A
 
 ## Tools
 OS : MacOS 15.3
+
 WM : Quartz
+
 DE : Aqua
+
 Terminal : iterm2
+
 Shell : zsh
+
 Package Panager : brew, port
+
 File Explorer : ranger, nnn
+
 Audio Player : cmus
+
 Bar : Ice
 
 
