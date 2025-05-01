@@ -17,6 +17,21 @@ This repository contains my personal macOS dotfiles, design inspired by *NieR: A
 
 *Neofetch, tty-clock, podsay and gotop (alternative to htop).*
 
+![](./screenshots/home3.png)
+*cmus, in-terminal music player.*
+
+![](./screenshots/vsc.png)
+*Visual Studio Code w Nier: Automata theme.*
+
+![](./screenshots/discord.png)
+*same w discord*
+
+![](./screenshots/file-explorer.png)
+
+![](./screenshots/alias1.png)
+*bash program, reference to Nier*
+
+
 ## Tools
 OS : MacOS 15.3
 
