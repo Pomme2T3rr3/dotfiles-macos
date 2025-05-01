@@ -11,7 +11,7 @@ This repository contains my personal macOS dotfiles, design inspired by *NieR: A
 
 ![](./screenshots/home1.png)
 
-*Neofetch, tty-clock and ![podsay](https://github.com/Pomme2T3rr3/podsay) (a little CLI program, reference to Nier: Automata)*
+*Neofetch, tty-clock and ![`podsay`](https://github.com/Pomme2T3rr3/podsay) (a little CLI program, reference to Nier: Automata)*
 
 ![](./screenshots/home2.png)
 
