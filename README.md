@@ -4,8 +4,9 @@ This repository contains my personal macOS dotfiles, design inspired by *NieR: A
 
 ## Features
 
-- Configurations for `zsh`, `brew`, `iterm2`, `vscode`.   
+- Configurations for `zsh`, `brew`, `iterm2` etc...   
 - Custom terminal color theme (iterm2): `Nier_Theme.json`.
+- custom prompt (reference to Nier).
 
 ## Screenshots
 
