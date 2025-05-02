@@ -1,9 +1,6 @@
 # start command
 neofetch
 
-atuin import auto > /dev/null 2>&1
-eval "$(atuin init zsh)" > /dev/null 2>&1
-
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -126,30 +123,7 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# add aliases
-alias la='ls -a'
-alias update='brew update && brew upgrade'
-alias gs='git status'
-alias gp='git pull'
-alias gc='git commit -m'
-alias c='clear'
-alias podsay='fortune /usr/local/share/fortunes/pod | cowsay -f /usr/local/share/cowsay-files/cows/pod.cow'
-alias boot='/Users/damdamdeo/Documents/Rice/script_Nier/boot.sh'
-alias rmOSChip='/Users/damdamdeo/Documents/Rice/script_Nier/rmOSChip.sh'
-alias reload="source ~/.zshrc"
 
-
-compil() {
-    clang -std=c17 -Wall "$1" -o "${1%.c}.out"
-}
-
-compilexec() {
-    clang -std=c17 -Wall "$1" -o "${1%.c}.out" && ./"${1%.c}.out"
-}
-
-
-# Prompt custom Nier
-# Exec time func
 preexec() { TIMER=$EPOCHREALTIME; }
 
 precmd() {
@@ -163,21 +137,15 @@ precmd() {
 }
 
 
-# PROMPT='%F{#48453e}[ SYSTEM_READY ]%f
-# %F{#5aa19b}❯%F{#c0c0c0} %~%f '
-
-# PROMPT='%F{#48453e}[ YoRHa Unit: %n ] %F{#5aa19b}%~ %F{#5aa19b}❯%f '
-
-
-# Définir un alias pour changer le pseudo
+# aliases change pseudo Nier
 alias 2B='export YORHA_UNIT="2B"'
 alias 9S='export YORHA_UNIT="9S"'
 alias A2='export YORHA_UNIT="A2"'
 
-# Modifier le prompt pour afficher le pseudo
+# custom prompt pseudo
 PROMPT='%F{#48453e}[ YoRHa Unit: ${YORHA_UNIT:-%n} ] %F{#5aa19b}%~%f '
 
-# Afficher le temps d'exécution
+# display execution time
 RPS1='${EXEC_TIME}'
 
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
