@@ -29,7 +29,7 @@ This repository contains my personal macOS dotfiles, design inspired by *NieR: A
 ![](./screenshots/file-explorer.png)
 
 ![](./screenshots/alias1.png)
-*bash program, reference to Nier*
+*bash program, reference to Nier boot sequence*
 
 
 ## Tools
@@ -43,7 +43,7 @@ Terminal : iterm2
 
 Shell : zsh
 
-Package Panager : brew, port
+Package Manager : brew, port
 
 File Explorer : ranger, nnn
 
